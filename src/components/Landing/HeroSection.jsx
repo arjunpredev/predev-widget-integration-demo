@@ -1,5 +1,6 @@
 import { useCallback, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { OnboardingWidget } from "predev-react-componets";
 
 export const HeroSection = ({ onGetStarted }) => {
 	const [isTablet, setIsTablet] = useState(window.innerHeight > 1000);
@@ -7,7 +8,6 @@ export const HeroSection = ({ onGetStarted }) => {
 	const navigate = useNavigate();
 	return (
 		<div className="hero-section bg-gray-800 h-screen">
-		
 			<main className="bg-gray-800 max-w-screen-xl min-w-0 flex-auto divide-y dark:divide-gray-700 static overflow-visible">
 				<section className="mb-8 pb-16 dark mx-auto flex max-w-8xl flex-col overflow-hidden px-10 sm:pb-10 lg:px-20 lg:pt-16">
 					<div className="flex flex-col gap-20 justify-center">
@@ -34,12 +34,9 @@ export const HeroSection = ({ onGetStarted }) => {
 									</p>
 
 									<div className="mt-3 cursor-pointer max-w-xl text-lg leading-normal text-gray-500 dark:text-gray-400 lg:text-xl">
-										<a
-											href="mailto:arjun@pre.dev,adam@pre.dev?subject=I'd%20like%20to%20contact%20you%20about%20pre.dev"
-											className="mt-4 inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
-										>
-											Contact us
-										</a>
+										<OnboardingWidget
+											apiKey={"eadb5507-eaff-421c-bd97-8acf3f4ca0d0"}
+										/>
 									</div>
 								</div>
 							</div>
