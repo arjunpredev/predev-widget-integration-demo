@@ -4,32 +4,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="theme-color" content="#000000" />
-		<meta
-			name="description"
-			content="From idea to product in weeks, not months."
-		/>
-
-		<!--  Essential META Tags -->
-		<meta property="og:title" content="pre.dev" />
-		<meta property="og:type" content="website" />
-		<meta property="og:image" content="/predevlogowhitebackground.png" />
-		<meta property="og:url" content="https://pre.dev" />
-		<meta name="twitter:card" content="summary_small_image" />
-
-		<!--  Non-Essential, But Recommended -->
-		<meta
-			property="og:description"
-			content="Go from idea to product in weeks, not months with pre.dev."
-		/>
-		<meta property="og:site_name" content="pre.dev" />
-		<meta name="twitter:image:alt" content="pre.dev" />
-
-		<!--  Non-Essential, But Required for Analytics -->
-		<meta property="fb:app_id" content="your_app_id" />
-		<meta name="twitter:site" content="@predotdev" />
-
-		<link rel="apple-touch-icon" href="%PUBLIC_URL%/predev.png" />
-		<link rel="preconnect" href="https://api.fonts.coollabs.io" crossorigin />
+	
 		<link
 			href="https://api.fonts.coollabs.io/css2?family=Roboto&display=swap"
 			rel="stylesheet"
@@ -60,75 +35,10 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-		<title>pre.dev</title>
+		<title>pre.dev widget</title>
 		<!-- Google tag (gtag.js) -->
-		<script
-			async
-			src="https://www.googletagmanager.com/gtag/js?id=G-Q6CRJ6K62C"
-		></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag() {
-				dataLayer.push(arguments);
-			}
-			gtag("js", new Date());
-
-			gtag("config", "G-Q6CRJ6K62C");
-		</script>
-		<script>
-			!(function (t, e) {
-				var o, n, p, r;
-				e.__SV ||
-					((window.posthog = e),
-					(e._i = []),
-					(e.init = function (i, s, a) {
-						function g(t, e) {
-							var o = e.split(".");
-							2 == o.length && ((t = t[o[0]]), (e = o[1])),
-								(t[e] = function () {
-									t.push([e].concat(Array.prototype.slice.call(arguments, 0)));
-								});
-						}
-						((p = t.createElement("script")).type = "text/javascript"),
-							(p.async = !0),
-							(p.src = s.api_host + "/static/array.js"),
-							(r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(
-								p,
-								r
-							);
-						var u = e;
-						for (
-							void 0 !== a ? (u = e[a] = []) : (a = "posthog"),
-								u.people = u.people || [],
-								u.toString = function (t) {
-									var e = "posthog";
-									return (
-										"posthog" !== a && (e += "." + a), t || (e += " (stub)"), e
-									);
-								},
-								u.people.toString = function () {
-									return u.toString(1) + ".people (stub)";
-								},
-								o =
-									"capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys".split(
-										" "
-									),
-								n = 0;
-							n < o.length;
-							n++
-						)
-							g(u, o[n]);
-						e._i.push([i, s, a]);
-					}),
-					(e.__SV = 1));
-			})(document, window.posthog || []);
-			posthog.init("phc_8ayngDr5zFcIOTbulDvje0PNMDwRrDHvKW2Patg4hmJ", {
-				api_host: "https://app.posthog.com",
-			});
-		</script>
 	</head>
-	<body>
-		<noscript>You need to enable JavaScript to run this app.</noscript>
+	<body>	
 		<div id="root"></div>
 		<!--
       This HTML file is a template.
