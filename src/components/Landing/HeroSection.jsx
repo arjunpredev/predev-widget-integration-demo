@@ -6,16 +6,10 @@ export const HeroSection = ({ onGetStarted }) => {
 
 	const navigate = useNavigate();
 	return (
-<<<<<<< HEAD
 		<div className="hero-section bg-gray-800 h-screen">
 		
 			<main className="max-w-screen-xl min-w-0 flex-auto divide-y dark:divide-gray-700 static max-h-full overflow-visible">
 				<section className="mb-8 pb-16 dark mx-auto flex max-w-8xl flex-col overflow-hidden px-10 sm:pb-10 lg:px-20 lg:pt-16">
-=======
-		<div className="hero-section">
-			<main className="max-w-screen-xl min-w-0 flex-auto divide-y dark:divide-gray-700 lg:static lg:max-h-full lg:overflow-visible">
-				<section className="mb-8 pb-16 dark mx-auto flex max-w-8xl flex-col overflow-hidden px-10 sm:pb-10 lg:px-20 lg:pb-24 lg:pt-16">
->>>>>>> 95ba0805eeeee9fc0f36ce8c1a9c1446bb1b2015
 					<div className="flex flex-col gap-20 justify-center">
 						<div className="flex items-center gap-10">
 							<div className="flex max-w-4xl flex-col justify-start gap-4">
