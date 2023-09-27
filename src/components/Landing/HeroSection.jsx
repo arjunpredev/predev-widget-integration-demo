@@ -9,7 +9,7 @@ export const HeroSection = () => {
 						<div className="flex items-center gap-10">
 							<div className="flex max-w-4xl flex-col justify-start gap-4">
 								<div className="flex flex-col gap-4 text-left lg:gap-6">
-									<h1 className="mt-20 xl:mt-10 max-w-xl text-5xl xl:max-w-4xl xl:text-7xl font-extrabold leading-none text-gray-900 dark:text-white lg:text-6xl">
+									<h1 className="mt-20 xl:mt-10 max-w-xl text-5xl xl:max-w-4xl xl:text-7xl font-extrabold leading-none text-gray-900 dark:text-white lg:text-5xl">
 										<span className="xl:inline">
 											Embed the
 											<span className="ml-2 text-blue-500 xl:inline">
