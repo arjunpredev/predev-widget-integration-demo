@@ -1,11 +1,6 @@
-import { predevReactComponents } from "predev-react-components";
-let OnboardingWidget = predevReactComponents.OnboardingWidget;
+import { OnboardingWidget } from "predev-react-components";
 
 export const HeroSection = () => {
-	// Now you can use <OnboardingWidget /> in your JSX
-
-	console.log("OnboardingWidget", OnboardingWidget);
-
 	return (
 		<div className="hero-section bg-gray-800 h-screen">
 			<main className="bg-gray-800 max-w-screen-xl min-w-0 flex-auto divide-y dark:divide-gray-700 static overflow-visible">
