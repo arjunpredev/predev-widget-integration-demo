@@ -1,6 +1,11 @@
-# predev-widget-integration-demo
+<div align='center'>
+  <img src='https://pre.dev/predevlogowhitebackground.png' height='100px'>
+  <h1>pre.dev Widget Integration Demo</h1>
+  <p>From idea to product in weeks, not months.</p>
+  <p><b>Get your API-Key</b> at <a href='https://pre.dev/enterprise'>https://pre.dev/enterprise</a></p>
+</div>
 
-This repository showcases the onboarding widget created by Pre.dev, implemented in a React application. Follow the instructions below to set up and run the project locally.
+This repository showcases a React application implementing the onboarding widget created by pre.dev. Follow the instructions below to set up, customize, and run the project locally.
 
 ## Prerequisites
 
@@ -32,33 +37,23 @@ yarn run start
 
 The application should now be running on [http://localhost:3000](http://localhost:3000).
 
-## Using the Pre.dev Widget
+## Installing the pre.dev React Components
 
-1. **Importing the Widget**: Import the Pre.dev widget component into your React component file.
+  `npm install predev-react-components`
 
-   ```jsx
-   	import PredevWidget from 'predev-widget';
-   ```
+## Onboarding Widget
 
-2. **Rendering the Widget**: Use the Pre.dev widget component in your React component's render method.
+### Import Module
 
-   ```jsx
-   function App() {
-     return (
-       <div className="App">
-         <h1>Pre.dev Widget Showcase</h1>
-         <PredevWidget />
-       </div>
-     );
-   }
-   ```
+```javascript
 
-3. **Customization**: Customize the Pre.dev widget by passing props according to the widget’s API documentation.
+import {OnboardingWidget} from 'predev-react-components';
 
-## Contributing
+```
 
-We welcome contributions! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+### Embed Module
 
-## License
+```javascript
+<OnboardingWidget apiKey={`API_KEY`}  />
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+```
