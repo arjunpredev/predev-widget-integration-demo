@@ -5,7 +5,7 @@ export const HeroSection = () => {
 		<div className="hero-section bg-gray-800 h-screen">
 			<main className="bg-gray-800 max-w-screen-xl min-w-0 flex-auto divide-y dark:divide-gray-700 static overflow-visible">
 				<section className="mb-8 pb-16 dark mx-auto flex max-w-8xl flex-col overflow-hidden px-10 sm:pb-10 lg:px-20 lg:pt-16">
-					<div className="flex flex-col gap-20 justify-center">
+					<div className="flex flex-col sm:flex-row gap-20 justify-center">
 						<div className="flex items-center gap-10">
 							<div className="flex max-w-4xl flex-col justify-start gap-4">
 								<div className="flex flex-col gap-4 text-left lg:gap-6">
@@ -35,6 +35,12 @@ export const HeroSection = () => {
 									</div>
 								</div>
 							</div>
+						</div>
+						<div>
+							<img
+								src="/background.jpeg"
+								className="h-96 w-full object-cover"
+							/>
 						</div>
 					</div>
 				</section>
