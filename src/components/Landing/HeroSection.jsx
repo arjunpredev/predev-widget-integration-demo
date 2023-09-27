@@ -1,20 +1,11 @@
-import { useCallback, useState } from "react";
-import { useNavigate } from "react-router-dom";
-import getLibrary from "predev-react-components";
+import { predevReactComponents } from "predev-react-components";
+let OnboardingWidget = predevReactComponents.OnboardingWidget;
 
-export const HeroSection = ({ onGetStarted }) => {
-	const [isTablet, setIsTablet] = useState(window.innerHeight > 1000);
-
-	console.log({ getLibrary });
-	const library = getLibrary();
-
-	const { OnboardingWidget } = library;
-
+export const HeroSection = () => {
 	// Now you can use <OnboardingWidget /> in your JSX
 
-	console.log(OnboardingWidget);
+	console.log("OnboardingWidget", OnboardingWidget);
 
-	const navigate = useNavigate();
 	return (
 		<div className="hero-section bg-gray-800 h-screen">
 			<main className="bg-gray-800 max-w-screen-xl min-w-0 flex-auto divide-y dark:divide-gray-700 static overflow-visible">
