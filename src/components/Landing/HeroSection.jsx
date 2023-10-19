@@ -30,7 +30,7 @@ export const HeroSection = () => {
 
 									<div className="mt-3 cursor-pointer max-w-xl text-lg leading-normal text-gray-500 dark:text-gray-400 lg:text-xl">
 										<OnboardingWidget
-											apiKey={process.env.REACT_APP_PREDEV_API_KEY}
+											apiKey={"6e4b9523-bb22-4762-b1fd-1e414f1c27f2"}
 										/>
 									</div>
 								</div>
