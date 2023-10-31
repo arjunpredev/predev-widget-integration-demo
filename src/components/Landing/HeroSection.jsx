@@ -27,14 +27,14 @@ export const HeroSection = () => {
 										website to harness the power of Pre.dev's AI Product Expert
 										with your clients.
 									</p>
-
-									<div className="mt-3 cursor-pointer max-w-xl text-lg leading-normal text-gray-500 dark:text-gray-400 lg:text-xl">
-										<OnboardingWidget
-											apiKey={"6e4b9523-bb22-4762-b1fd-1e414f1c27f2"}
-										/>
-									</div>
 								</div>
 							</div>
+						</div>
+
+						<div className="mt-3 cursor-pointer min-w-[420px] text-lg leading-normal text-gray-500 dark:text-gray-400 lg:text-xl">
+							<OnboardingWidget
+								apiKey={"6e4b9523-bb22-4762-b1fd-1e414f1c27f2"}
+							/>
 						</div>
 					</div>
 				</section>
