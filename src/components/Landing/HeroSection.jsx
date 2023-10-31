@@ -3,10 +3,10 @@ import { OnboardingWidget } from "predev-react-components";
 export const HeroSection = () => {
 	return (
 		<div className="hero-section">
-			<main className="max-w-screen-xl min-w-0 flex-auto">
-				<section className="mb-8 pb-16 mx-auto flex max-w-8xl flex-col overflow-hidden px-10 sm:pb-10 lg:px-20 lg:pt-16">
+			<main className="min-w-0 flex-auto">
+				<section className="mb-8 pb-16 mx-auto flex max-w-8xl flex-col overflow-hidden sm:pb-10 lg:px-20 lg:pt-16">
 					<div className="flex sm:flex-row flex-col gap-20 justify-center">
-						<div className="flex items-center gap-10">
+						<div className="flex items-center gap-10 px-10">
 							<div className="flex max-w-4xl flex-col justify-start gap-4">
 								<div className="flex flex-col gap-4 text-left lg:gap-6">
 									<h1 className="mt-20 xl:mt-10 max-w-2xl text-5xl xl:max-w-4xl xl:text-7xl font-extrabold leading-none text-white lg:text-5xl">
@@ -30,7 +30,7 @@ export const HeroSection = () => {
 								</div>
 							</div>
 						</div>
-						<div className="mt-3 cursor-pointer min-w-[420px] text-lg leading-normal text-gray-500 dark:text-gray-400 lg:text-xl">
+						<div className="mt-3 cursor-pointer pr-10">
 							<OnboardingWidget
 								apiKey={"6e4b9523-bb22-4762-b1fd-1e414f1c27f2"}
 							/>
