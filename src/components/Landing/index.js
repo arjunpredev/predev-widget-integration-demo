@@ -1,3 +1,4 @@
+import { Footer } from "../Footer";
 import { HeroSection } from "./HeroSection";
 
 export const LandingPage = () => {
@@ -12,6 +13,7 @@ export const LandingPage = () => {
 			>
 				Fork me on GitHub
 			</a>
+			<Footer />
 		</>
 	);
 };

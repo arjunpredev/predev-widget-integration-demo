@@ -5,7 +5,7 @@ export const HeroSection = () => {
 		<div className="hero-section">
 			<main className="max-w-screen-xl min-w-0 flex-auto">
 				<section className="mb-8 pb-16 dark mx-auto flex max-w-8xl flex-col overflow-hidden px-10 sm:pb-10 lg:px-20 lg:pt-16">
-					<div className="flex flex-col sm:flex-row gap-20 jgustify-center">
+					<div className="flex flex-col sm:flex-row gap-20 justify-center">
 						<div className="flex items-center gap-10">
 							<div className="flex max-w-4xl flex-col justify-start gap-4">
 								<div className="flex flex-col gap-4 text-left lg:gap-6">
@@ -30,7 +30,6 @@ export const HeroSection = () => {
 								</div>
 							</div>
 						</div>
-
 						<div className="mt-3 cursor-pointer min-w-[420px] text-lg leading-normal text-gray-500 dark:text-gray-400 lg:text-xl">
 							<OnboardingWidget
 								apiKey={"6e4b9523-bb22-4762-b1fd-1e414f1c27f2"}
