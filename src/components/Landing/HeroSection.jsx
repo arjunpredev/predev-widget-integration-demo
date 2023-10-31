@@ -4,12 +4,12 @@ export const HeroSection = () => {
 	return (
 		<div className="hero-section">
 			<main className="max-w-screen-xl min-w-0 flex-auto">
-				<section className="mb-8 pb-16 dark mx-auto flex max-w-8xl flex-col overflow-hidden px-10 sm:pb-10 lg:px-20 lg:pt-16">
+				<section className="mb-8 pb-16 mx-auto flex max-w-8xl flex-col overflow-hidden px-10 sm:pb-10 lg:px-20 lg:pt-16">
 					<div className="flex flex-col sm:flex-row gap-20 justify-center">
 						<div className="flex items-center gap-10">
 							<div className="flex max-w-4xl flex-col justify-start gap-4">
 								<div className="flex flex-col gap-4 text-left lg:gap-6">
-									<h1 className="mt-20 xl:mt-10 max-w-2xl text-5xl xl:max-w-4xl xl:text-7xl font-extrabold leading-none text-gray-900 dark:text-white lg:text-5xl">
+									<h1 className="mt-20 xl:mt-10 max-w-2xl text-5xl xl:max-w-4xl xl:text-7xl font-extrabold leading-none text-white lg:text-5xl">
 										<span className="xl:inline">
 											Embed the
 											<span className="ml-2 text-blue-500 xl:inline">
