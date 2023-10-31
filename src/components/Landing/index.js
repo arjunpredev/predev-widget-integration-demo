@@ -13,6 +13,7 @@ export const LandingPage = () => {
 			>
 				Fork me on GitHub
 			</a>
+
 			<Footer />
 		</>
 	);

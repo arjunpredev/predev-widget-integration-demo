@@ -2,10 +2,10 @@ import { OnboardingWidget } from "predev-react-components";
 
 export const HeroSection = () => {
 	return (
-		<div className="hero-section">
+		<div className="hero-section min-h-screen">
 			<main className="min-w-0 flex-auto">
 				<section className="mb-8 pb-16 mx-auto flex max-w-8xl flex-col overflow-hidden sm:pb-10 lg:px-20 lg:pt-16">
-					<div className="flex sm:flex-row flex-col gap-20 justify-center">
+					<div className="flex lg:flex-row flex-col gap-20 justify-center">
 						<div className="flex items-center gap-10 px-10">
 							<div className="flex max-w-4xl flex-col justify-start gap-4">
 								<div className="flex flex-col gap-4 text-left lg:gap-6">
