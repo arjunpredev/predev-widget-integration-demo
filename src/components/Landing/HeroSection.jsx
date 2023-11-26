@@ -31,9 +31,11 @@ export const HeroSection = () => {
 							</div>
 						</div>
 						<div className="mt-3 cursor-pointer pr-10">
-							<OnboardingWidget
-								apiKey={"6e4b9523-bb22-4762-b1fd-1e414f1c27f2"}
-							/>
+							<iframe
+								height="570px"
+								width="500px"
+								src="https://pre.dev/iframe/enterprise/chat/6e4b9523-bb22-4762-b1fd-1e414f1c27f2"
+							></iframe>
 						</div>
 					</div>
 				</section>
