@@ -1,5 +1,3 @@
-import { OnboardingWidget } from "predev-react-components";
-
 export const HeroSection = () => {
 	return (
 		<div className="hero-section min-h-screen">
@@ -31,11 +29,21 @@ export const HeroSection = () => {
 							</div>
 						</div>
 						<div className="mt-3 cursor-pointer pr-10">
-							<iframe
-								height="570px"
-								width="500px"
-								src="https://pre.dev/iframe/enterprise/chat/6e4b9523-bb22-4762-b1fd-1e414f1c27f2"
-							></iframe>
+							{process.env.REACT_APP_PROD === "true" ? (
+								<iframe
+									title="pre.dev"
+									height="570px"
+									width="500px"
+									src="https://pre.dev/iframe/enterprise/chat/6e4b9523-bb22-4762-b1fd-1e414f1c27f2"
+								></iframe>
+							) : (
+								<iframe
+									title="pre.dev"
+									height="570px"
+									width="500px"
+									src="http://localhost:3000/iframe/enterprise/chat/7389415c-b0b4-40d0-98b7-1009a8325965"
+								></iframe>
+							)}
 						</div>
 					</div>
 				</section>
