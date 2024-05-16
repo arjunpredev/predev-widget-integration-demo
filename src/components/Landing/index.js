@@ -32,8 +32,8 @@ export const LandingPage = () => {
 							<div className="mt-3 cursor-pointer pr-10">
 								<iframe
 									title="pre.dev"
-									height="570px"
-									width="500px"
+									height="590px"
+									width="420px"
 									src={`https://pre.dev/iframe/enterprise/chat/${process.env.REACT_APP_PREDEV_API_KEY}`}
 								/>
 							</div>
