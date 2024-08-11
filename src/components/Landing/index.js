@@ -18,13 +18,11 @@ export const LandingPage = () => {
 												<span className="ml-2 text-blue-500 xl:inline">
 													streamline
 												</span>{" "}
-												onboarding today.
+												project scoping today.
 											</span>
 										</h1>
 										<p className="font-light max-w-xl text-lg leading-normal text-gray-300 lg:text-xl xl:text-2xl">
-											Easily embed our react widget with NPM integration in your
-											website to harness the power of Pre.dev's AI Product
-											Expert with your clients.
+											Easily embed the widget with one line of code.
 										</p>
 									</div>
 								</div>
