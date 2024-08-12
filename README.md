@@ -16,14 +16,14 @@ This repository showcases a React application implementing the onboarding widget
 Clone the repository:
 
 ```sh
-git clone https://github.com/username/predev-widget-showcase.git
-cd predev-widget-showcase
+git clone https://github.com/arjunpredev/predev-widget-integration-demo.git
+cd predev-widget-integration-demo
 ```
 
 Install the dependencies:
 
 ```sh
-yarn install
+bun install
 ```
 
 ## Running the Application
@@ -31,7 +31,7 @@ yarn install
 Start the development server:
 
 ```sh
-yarn run start
+bun start
 ```
 
 The application should now be running on [http://localhost:3000](http://localhost:3000).
