@@ -1,8 +1,8 @@
 <div align='center'>
   <img src='https://pre.dev/predevlogowhitebackground.png' height='100px'>
   <h1>pre.dev Widget Integration Demo</h1>
-  <p>Accelerate idea to development.</p>
-  <p><b>Get your API-Key</b> at <a href='https://pre.dev/enterprise'>https://pre.dev/enterprise</a></p>
+  <p>AI Product Architect</p>
+  <p><b>Get your API Key</b> at <a href='https://pre.dev'>https://pre.dev</a></p>
 </div>
 
 This repository showcases a React application implementing the onboarding widget created by pre.dev. Follow the instructions below to set up, customize, and run the project locally.
