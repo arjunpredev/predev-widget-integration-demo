@@ -1,3 +1,5 @@
+import { Footer } from "../Footer";
+
 export const LandingPage = () => {
 	return (
 		<>
@@ -38,6 +40,7 @@ export const LandingPage = () => {
 			>
 				Fork me on GitHub
 			</a>
+			<Footer />
 		</>
 	);
 };
