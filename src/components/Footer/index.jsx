@@ -19,7 +19,7 @@ const footerNavs = [
 				name: "Pricing",
 			},
 			{
-				href: "https://calendly.com/pre_dev/30-minute-meeting",
+				href: "https://calendly.com/pre_dev/talk-to-sales",
 				name: "Request Demo",
 			},
 		],
@@ -29,7 +29,7 @@ const footerNavs = [
 		label: "Resources",
 		items: [
 			{
-				href: "https://calendly.com/pre_dev/30-minute-meeting",
+				href: "https://calendly.com/pre_dev/talk-to-sales",
 				name: "Contact Us",
 			},
 			{
