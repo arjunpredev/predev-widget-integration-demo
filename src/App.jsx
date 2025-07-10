@@ -4,7 +4,7 @@ import { Footer } from "./components/Footer";
 function App() {
 	return (
 		<Router>
-			<div className="bg-gray-800">
+			<div className="bg-white">
 				<Routes>
 					<Route
 						path="/"
